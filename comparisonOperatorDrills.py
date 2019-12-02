@@ -16,52 +16,52 @@ START HERE
 #1) Check if "dog" is equal to "cat" and store the answer in variable b
 b = "dog" == "cat"
 print(b) 
-#False
+
 #2) Check if 1.24 is equal to 1.25 and store the answer in variable c
 c = 1.24 == 1.25
 print(c) 
-#False
+
 #3) Check if True is equal to False and store the answer in variable d
 d = True == False 
 print(d) 
-#False
+
 #4) Check if [1,2,3] is equal to [1,2,3] and store the answer in variable e
 e = [1, 2, 3] == [1, 2, 3]
 print(e) 
-#True
+
 #5) Check if 1 is less than or equal to 2 and store the answer in variable f
 f = 1 <= 2 
 print(f) 
-#True
+
 #6) Check if 1 is greater than or equal to 2 and store the answer in variable g
 g = 1 >= 2 
 print(g) 
-#False
+
 #7) Check if 1.66 is greater than or equal to 1.67 and store the answer in variable h
 h = 1.66 >= 1.67
 print(h) 
-#False
+
 #8) Check if 1.66 is less than or equal to 1.67 and store the answer in variable i
 i = 1.66 <= 1.67
 print(i)
-#True
+
 #9) Check if 1 is less than 2 and store the answer in variable j
 j = 1 < 2
 print(j) 
-#True 
+
 #10) Check if 1 is greater than 2 and store the answer in variable k
 k = 1 > 2
 print(k) 
-#False 
+ 
 #11) Check if 11 divided by three 3 is less than 100 divided by 33 and store the answer
 #  ) in variable l
 l = 11 / 3 < 100 / 33
 print(l) 
-#False
+
 #12) Check if 9 times 7 is greater than 8 times 8 and store the answer in variable m
 m = 9 * 7 > 8 * 8
 print(m) 
-#False
+
 #13) Check if the square root of 3 is less than 1.15 squared and store the answer in
 #  ) variable n
 n = sqrt(3) < 1.15 ** 2
@@ -76,7 +76,10 @@ print(q)
 #15) Take the square root of 96 and store that in variable r, then square 8.6 and store
 #  ) that in variable s, finally check if r is greater than or equal to s and store the
 #  ) answer in t
-
+r = sqrt(96)
+s = sqrt(8.6) 
+t = r >= s 
+print(t) 
 '''
 For the next section, you will be reading comparison statements and determining their answer
 EXAMPLE:
@@ -127,45 +130,57 @@ True
 #9) a = 3
 # ) b = math.sqrt(9)
 # ) a == b
+True 
 
 #10) a = "word"
 #  ) b = "Word"
 #  ) a == b
+False 
 
 #11) (10/5) == (12/6)
+True 
 
 #12) (14/7) == (15/5)
+False  
 
 #13) a = 10
 #  ) b = 5
 #  ) (a/b) == 2
+True 
 
 #14) a = 10
 #  ) b = 5
 #  ) (a/b) == (12/6)
+True 
 
 #15) a = 10
 #  ) b = 5
 #  ) c = 12
 #  ) d = 6
 #  ) (a/b) == (12/6)
+True 
 
 #16) a = "something"
 #  ) b = "some thing"
 #  ) a == b
+False 
 
 #17) a = "word"
 #  ) b = "word"
 #  ) a == b
+True 
 
 #18) a = True
 #  ) a == True
+True 
 
 #19) a = True
 #  ) b = False
 #  ) a == b
+False 
 
 #20) a = True
 #  ) A = False
 #  ) b = False
 #  ) A == b
+True 
