@@ -23,27 +23,32 @@ START HERE
 # )Broken:
 # )4 = 4
 # )Correct:
+4 == 4 
 
 #2)
 # )Broken:
 # )3 = 3
 # )Correct:
-
+3 == 3
 #3)
 # )Broken:
 # )5 = = 5
 # )Correct:
+5 == 5
 
 #4)
 # )Broken:
 # )4 = = 4
 # )Correct:
+4 == 4 
 
 #5)
 # )Broken:
 # )a = 4
 # )a = 3
 # )Correct:
+a = 4 == 3
+print(a) 
 
 #6)
 # )Broken:
@@ -51,13 +56,18 @@ START HERE
 # )b = 3
 # )a = b
 # )Correct:
-
+k = a == b
+print(k) 
+ 
 #7)
 # )Broken:
 # )a = 3
 # )a < 4
 # )PROBLEM: I want it to be true when a is less than OR equal to 4
 # )Correct:
+a = 3 
+j = a <= 4
+print(j)  
 
 #8)
 # )Broken:
@@ -65,6 +75,9 @@ START HERE
 # )a > 4
 # )PROBLEM: I want it to be true when a is greater than OR equal to 4
 # )Correct:
+a = 3
+k = a >= 4
+print(k) 
 
 #9)
 # )Broken:
@@ -73,6 +86,10 @@ START HERE
 # )a < 3
 # )PROBLEM: I want it to be true when a is less than OR equal to b
 # )Correct:
+a = 3
+b = 3
+c = a <= b 
+print(c) 
 
 #10)
 # )Broken:
@@ -81,3 +98,7 @@ START HERE
 # )a > b
 # )PROBLEM: I want it to be true when a is greater than OR equal to b
 # )Correct:
+a = 3
+b = 2 
+o = a >= b 
+print(o) 
